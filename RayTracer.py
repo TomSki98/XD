@@ -52,7 +52,7 @@ rgb = vec3
 (w, h) = (400, 300)        # Rozmiar obrazu
 L = vec3(5, 5, -5)         # Położenie światła
 E = vec3(0, 0.35, -1)      # Położenie kamery
-FARAWAY = 1.0e39           # an implausibly huge distance
+FARAWAY = 1.0e39
 
 def raytrace(O, D, scene):
     # O jest początkiem promienia, D jest znormalizowanym kierunkiem promienia
